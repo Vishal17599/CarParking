@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
                     al.add(parkingspot);
                     al.add(parkingtime);
                     al.add(carno);
+                    al.add(email);
                     Intent in = new Intent(MainActivity.this,DisplayActivity.class);
                     in.putExtra("key",al);
                     startActivity(in);
