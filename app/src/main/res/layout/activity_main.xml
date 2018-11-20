@@ -12,7 +12,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="20dp"
-    android:elevation="8dp">
+    android:elevation="8dp"
+    app:cardBackgroundColor="#974231">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,9 +45,10 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="CAR NO :"
+                android:text="CARNO :"
                 android:textSize="20sp"
-                android:fontFamily="@font/psb"/>
+                android:fontFamily="@font/psb"
+                android:maxLines="1"/>
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="40dp"
@@ -78,6 +80,7 @@
         android:layout_height="wrap_content"
         android:text="SUBMIT"
         android:fontFamily="@font/psb"
-        android:onClick="functionality"/>
+        android:focusableInTouchMode="false"
+        android:id="@+id/but"/>
 
 </LinearLayout>
