@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="NAME :"
+            android:text="NAME:"
             android:textSize="20sp"
             android:fontFamily="@font/psb"/>
             <EditText
@@ -45,7 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="CARNO :"
+                android:text="CARNO:"
                 android:textSize="20sp"
                 android:fontFamily="@font/psb"
                 android:maxLines="1"/>
@@ -64,14 +64,15 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="EMAIL :"
+                android:text="EMAIL:"
                 android:textSize="20sp"
                 android:fontFamily="@font/psb"/>
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_weight="3"
-                android:id="@+id/email"/>
+                android:id="@+id/email"
+                android:lines="2"/>
         </LinearLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>
